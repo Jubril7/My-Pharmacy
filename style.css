@@ -1,0 +1,183 @@
+
+
+.btn-warning{
+    background-color: tomato;
+    height: 60px;
+}
+
+.nav-link{
+    font-variant: small-caps;
+    font-size: large;
+}
+
+.link-btn{
+    font-variant: small-caps;
+}
+
+.nav-link:hover{
+    color: tomato;
+}
+
+.btn{
+    background-color: tomato
+}
+
+.header{
+   background-image: url(./images-8/backgroundImage.jpeg);
+   background-size: 100% 100%;
+   height: 600px;
+} 
+
+
+h1{
+    color: #fff;
+    text-shadow: 1px 1px wheat;
+}
+
+.sec-top{
+    text-transform: uppercase;
+}
+
+.card{
+    background-image: linear-gradient(to top left, rgb(211, 211, 211), rgb(238, 236, 236));
+    box-shadow: 0 3px 5px rgba(247, 245, 245, 0.6);
+    border-radius: 50px;
+}
+
+.card-img{
+    width: 118px;
+    height: 118px;
+    border-radius: 59px;
+}
+
+.card-txt{
+    color: tomato;
+}
+
+.pill{
+    box-shadow: 0 2px 3px rgb(0 0 0 / 60%);
+    margin: 16px 30px;
+    padding: 0px 38px;
+    border-radius: 50px;
+    background-image: linear-gradient(to top left, rgb(215, 214, 214), rgb(238, 236, 236));
+}
+
+.pill-img{
+    width: 163px;
+    height: 70px;
+    border-radius: 63px;
+    margin-left: -25px;
+}
+
+.pill-text h4{
+    color: tomato;
+}
+
+.texts h5{
+    color: tomato;
+    text-transform: uppercase;
+}
+
+.texts h6{
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.img-Dee{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    margin-left: 304px;
+}
+
+.img-kunle{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    margin-left: 113px;
+}
+
+.img-saudi{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    margin-left: 113px;
+}
+
+.footer{
+    background-color: tomato;
+}
+
+.footer-text{
+    margin-left: 276px;
+    text-transform: uppercase;
+}
+
+.copyright{
+    text-transform: capitalize;
+    font-size: smaller;
+}
+
+.right{
+    font-size: smaller;
+    font-style: oblique;
+}
+
+/* media queries */
+@media(max-width: 768px){
+    .img-Dee{
+        margin-left: 112px;
+    }
+
+    .footer-text{
+        margin-left: 175px;
+    }
+
+    .pill-img {
+        width: 257px;
+        height: 57px;
+    }    
+}
+
+@media(max-width: 425px){
+    .card{
+        margin-bottom: 10px;
+    }
+
+    .img-Dee{
+        margin-left: 55px;
+    }
+
+    .img-kunle{
+        margin-left: 10px;
+    }
+
+    .img-saudi{
+        margin-left: 17px;
+    }
+    .myImages{
+        margin-left: 25px;
+    }
+
+    .footer-text{
+        margin-left: 73px;
+    }
+    .smile{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
